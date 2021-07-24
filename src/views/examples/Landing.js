@@ -81,13 +81,11 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Innovation, Creation, Collaboration{" "}
+                        <span>through Leadership</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Together, let's better the world through technology, efficiency, and sustainability.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,31 +146,29 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Fantascribe
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Create create, sorte, and edit notes on all of your targeted fantasy football players. Notes can be assigned teams and positions, and subsequently ranked.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              Javascript
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
+                            href="https://github.com/QPThree/fantasy-player-notes"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            View on Github
                           </Button>
                         </CardBody>
                       </Card>
@@ -184,31 +180,29 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Gitstop
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Play games and compete with the leaderboard at Gitstop!
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Javascript
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              HTML
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
+                            href="https://earth-fire-water.github.io/gitstop/"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            View on GitHub
                           </Button>
                         </CardBody>
                       </Card>
@@ -220,31 +214,63 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Salmon Cookies
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Store management site. Stores are rendered as objects. Form to add stores.  Store data sales-info is automatically calculated. Algorithm ranks the stores daily based on sales.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              Javascript
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              HTML
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
+                            href="https://github.com/QPThree/cookie-stand"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            View on GitHub
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Coming soon
+                          </h6>
+                          <p className="description mt-3">
+                            Come back soon!
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              TBD
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              TBD
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              TBD
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://github.com/QPThree/cookie-stand"
+                            onClick={e => e.preventDefault()}
+                          >
+                            View on GitHub
                           </Button>
                         </CardBody>
                       </Card>
@@ -269,11 +295,14 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>My Background</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      My name is Quentin Young, I grew up on a dairy farm in the hills of Vermont.
+                      In 2013, I enlisted in the Navy directly after graduating from the University of New Hampshire
+                      I've always been fluent in math and logic.
+                      I decided to pursue software and not only start a career in development, but to eventually pursue my masters in engineering.
+                      Outside of software, I'm a marathoner (Boston Marathon qualifier), summit mountains (Whitney, highest in lower 48), and ski!
+                      Im currently training for an Ultra Marathon in the Olympic mountains this fall.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -288,7 +317,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Carefully crafted components
+                              2020 Boston Marathon Qualifier
                             </h6>
                           </div>
                         </div>
@@ -304,7 +333,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">Ultra-Marathoner</h6>
                           </div>
                         </div>
                       </li>
@@ -320,7 +349,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                              Spartan Race Winner - Boston, MA 2012
                             </h6>
                           </div>
                         </div>
