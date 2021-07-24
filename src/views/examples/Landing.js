@@ -19,7 +19,9 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-
+import project1img from '../../assets/img/projects/fantascribe.jpeg';
+import project2img from '../../assets/img/projects/salmoncookies.jpeg';
+import project3img from '../../assets/img/projects/gitstop.jpeg';
 
 // reactstrap components
 import {
@@ -27,6 +29,7 @@ import {
   Button,
   Card,
   CardBody,
+  CardImg,
   FormGroup,
   Input,
   InputGroupAddon,
@@ -40,6 +43,7 @@ import {
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
+import CardHeader from "reactstrap/lib/CardHeader";
 
 
 class Landing extends React.Component {
@@ -57,7 +61,7 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-primary">
                 <span />
                 <span />
                 <span />
@@ -111,6 +115,11 @@ class Landing extends React.Component {
                   <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                        <CardHeader>
+                          <CardImg className="img-fluid" src={project1img} alt='fantascribe'>
+
+                          </CardImg>
+                        </CardHeader>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
@@ -145,6 +154,11 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardHeader>
+                          <CardImg className="img-fluid" src={project2img} alt='gitstop'>
+
+                          </CardImg>
+                        </CardHeader>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
@@ -179,6 +193,11 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardHeader>
+                          <CardImg className="img-fluid" src={project3img} alt='salmon cookies'>
+
+                          </CardImg>
+                        </CardHeader>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
@@ -330,7 +349,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-  
+
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
