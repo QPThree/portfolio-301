@@ -38,7 +38,8 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+
+import qp3logo from "assets/img/brand/qp3logo.png";
 import argonReact from "assets/img/brand/argon-react.png";
 
 class DemoNavbar extends React.Component {
@@ -76,8 +77,8 @@ class DemoNavbar extends React.Component {
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
-                  alt="..."
-                  src={reactWhite}
+                  alt="QPThree"
+                  src={qp3logo}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
