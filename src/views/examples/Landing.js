@@ -19,7 +19,9 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-
+import project1img from '../../assets/img/projects/fantascribe.jpeg';
+import project2img from '../../assets/img/projects/salmoncookies.jpeg';
+import project3img from '../../assets/img/projects/gitstop.jpeg';
 
 // reactstrap components
 import {
@@ -27,6 +29,7 @@ import {
   Button,
   Card,
   CardBody,
+  CardImg,
   FormGroup,
   Input,
   InputGroupAddon,
@@ -40,6 +43,8 @@ import {
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
+import CardHeader from "reactstrap/lib/CardHeader";
+import mapleandi from '../../assets/img/brand/mapleandi.jpeg'
 
 
 class Landing extends React.Component {
@@ -57,7 +62,7 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-primary">
                 <span />
                 <span />
                 <span />
@@ -73,8 +78,8 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        Innovation, Creation, Collaboration{" "}
-                        <span>through Leadership</span>
+                        Innovate & Collaborate{" "}
+                        through<span className="text-primary text-uppercase"> Leadership</span>
                       </h1>
                       <p className="lead text-white">
                         Together, let's better the world through technology, efficiency, and sustainability.
@@ -111,6 +116,11 @@ class Landing extends React.Component {
                   <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                        <CardHeader>
+                          <CardImg className="img-fluid" src={project1img} alt='fantascribe'>
+
+                          </CardImg>
+                        </CardHeader>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
@@ -145,30 +155,35 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardHeader>
+                          <CardImg className="img-fluid" src={project2img} alt='gitstop'>
+
+                          </CardImg>
+                        </CardHeader>
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div>
-                          <h6 className="text-success text-uppercase">
+                          <h6 className="text-primary text-uppercase">
                             Gitstop
                           </h6>
                           <p className="description mt-3">
                             Play games and compete with the leaderboard at Gitstop!
                           </p>
                           <div>
-                            <Badge color="success" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               Javascript
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               HTML
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="success"
+                            color="primary"
                             href="https://earth-fire-water.github.io/gitstop/"
                             onClick={e => e.preventDefault()}
                           >
@@ -179,30 +194,35 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardHeader>
+                          <CardImg className="img-fluid" src={project3img} alt='salmon cookies'>
+
+                          </CardImg>
+                        </CardHeader>
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-planet" />
                           </div>
-                          <h6 className="text-warning text-uppercase">
+                          <h6 className="text-primary text-uppercase">
                             Salmon Cookies
                           </h6>
                           <p className="description mt-3">
                             Store management site. Stores are rendered as objects. Form to add stores.  Store data sales-info is automatically calculated. Algorithm ranks the stores daily based on sales.
                           </p>
                           <div>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               Javascript
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               HTML
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="warning"
+                            color="primary"
                             href="https://github.com/QPThree/cookie-stand"
                             onClick={e => e.preventDefault()}
                           >
@@ -257,20 +277,22 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={promo1}
+                    src={mapleandi}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                    <div className="icon icon-lg icon-shape icon-shape-secondary shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
                     <h3>My Background</h3>
                     <p>
                       My name is Quentin Young, I grew up on a dairy farm in the hills of Vermont.
-                      In 2013, I enlisted in the Navy directly after graduating from the University of New Hampshire
-                      I've always been fluent in math and logic.
+                      In 2013, I enlisted in the Navy directly after graduating from the University of New Hampshire.
+                      I've always been attracted to math and logic.
                       I decided to pursue software and not only start a career in development, but to eventually pursue my masters in engineering.
+                      <br></br>
+                      <br></br>
                       Outside of software, I'm a marathoner (Boston Marathon qualifier), summit mountains (Whitney, highest in lower 48), and ski!
                       Im currently training for an Ultra Marathon in the Olympic mountains this fall.
                     </p>
@@ -280,9 +302,9 @@ class Landing extends React.Component {
                           <div>
                             <Badge
                               className="badge-circle mr-3"
-                              color="success"
+                              color="primary"
                             >
-                              <i className="ni ni-settings-gear-65" />
+                              <i className="ni ni-user-run" />
                             </Badge>
                           </div>
                           <div>
@@ -297,9 +319,9 @@ class Landing extends React.Component {
                           <div>
                             <Badge
                               className="badge-circle mr-3"
-                              color="success"
+                              color="primary"
                             >
-                              <i className="ni ni-html5" />
+                              <i className="ni ni-compass-04" />
                             </Badge>
                           </div>
                           <div>
@@ -312,9 +334,9 @@ class Landing extends React.Component {
                           <div>
                             <Badge
                               className="badge-circle mr-3"
-                              color="success"
+                              color="primary"
                             >
-                              <i className="ni ni-satisfied" />
+                              <i className="ni ni-diamond" />
                             </Badge>
                           </div>
                           <div>
@@ -330,7 +352,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-  
+
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
