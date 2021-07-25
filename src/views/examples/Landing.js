@@ -357,16 +357,13 @@ class Landing extends React.Component {
             </Container>
           </section>
 
-          <section className="section section-lg bg-gradient-default">
+          <section className="section section-lg bg-gradient-primary">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
+                  <h2 className="display-3 text-white">My Truths</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                   My vision and guidance. I carry these oaths with me in my work, relationships, and life. 
                   </p>
                 </Col>
               </Row>
@@ -375,30 +372,27 @@ class Landing extends React.Component {
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
+                  <h5 className="text-white mt-3">Compassion</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Our paths are walked differently. You might never know what other's have been through. Respect, empathy, and kindness is due to those on all sides of you. 
                   </p>
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-ruler-pencil text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
+                  <h5 className="text-white mt-3">Impeccable with my word</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Speak with integrity. Own your words. Not to be used to speak down on others.
                   </p>
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-atom text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
+                  <h5 className="text-white mt-3">Composure</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Stress and downfall will occur. Remaining focused and guided when chaos is around you is what separates a leader. 
                   </p>
                 </Col>
               </Row>
@@ -426,9 +420,9 @@ class Landing extends React.Component {
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
                     <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Want to work with us?</h4>
+                      <h4 className="mb-1">Let's work together</h4>
                       <p className="mt-0">
-                        Your project is very important to us.
+                        Or at least talk about it over a coffee.
                       </p>
                       <FormGroup
                         className={classnames("mt-5", {
