@@ -18,12 +18,16 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col, Progress } from "reactstrap";
+
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/brand/profile.jpeg";
+import CardHeader from "reactstrap/lib/CardHeader";
+import CardBody from "reactstrap/lib/CardBody";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -148,7 +152,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        From working my family farm in Vermont to serving in Naval Aviation I have learned to value clean, versatile design and procedure.  I carry those values in the software I write, in addition to my leadership experience and even-keeled demeanor.
+                          From working my family farm in Vermont to serving in Naval Aviation I have learned to value clean, versatile design and procedure.  I carry those values in the software I write, in addition to my leadership experience and even-keeled demeanor.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
@@ -159,6 +163,56 @@ class Profile extends React.Component {
                 </div>
               </Card>
             </Container>
+          </section>
+          <section className="section">
+            <Row className="justify-content-md-center">
+              <Col className="order-lg-2" lg="3" >
+                <Card className="card-plain shadow">
+                  <CardHeader>
+                    Languages
+                  </CardHeader>
+                  <CardBody>
+                    <Container>
+                      <Row>
+                        <Col>
+                          <p>Javascript</p>
+                          <ProgressBar now={90} variant="secondary" />
+                          <p>React.js</p>
+                          <ProgressBar now={70} variant="secondary" />
+                          <p>HTML</p>
+                          <ProgressBar now={90} variant="secondary" />
+                          <p>CSS</p>
+                          <ProgressBar now={80} variant="secondary" />
+                        </Col>
+                      </Row>
+                    </Container>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col className="order-lg-2" lg="3" >
+                <Card className="card-plain shadow">
+                  <CardHeader>
+                    Tools
+                  </CardHeader>
+                  <CardBody>
+                    <Container>
+
+
+                      <Row>
+                        <Col>
+                          <p>JSON</p>
+                          <ProgressBar now={80} variant="secondary" />
+                          <p>AWS</p>
+                          <ProgressBar now={40} variant="secondary" />
+                          <p>Git</p>
+                          <ProgressBar now={60} variant="secondary" />
+                        </Col>
+                      </Row>
+                    </Container>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
           </section>
         </main>
         <SimpleFooter />

@@ -18,7 +18,6 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
 import project1img from '../../assets/img/projects/fantascribe.jpeg';
 import project2img from '../../assets/img/projects/salmoncookies.jpeg';
 import project3img from '../../assets/img/projects/gitstop.jpeg';
@@ -78,8 +77,8 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        Innovate & Collaborate{" "}
-                        through<span className="text-primary text-uppercase"> Leadership</span>
+                        Innovation & Collaboration{" "}
+                        Through<span className="text-primary text-uppercase"> Leadership</span>
                       </h1>
                       <p className="lead text-white">
                         Together, let's better the world through technology, efficiency, and sustainability.
@@ -109,6 +108,11 @@ class Landing extends React.Component {
             </section>
             {/* 1st Hero Variation */}
           </div>
+          <section className="section section-lg pt-lg-0 mt--200">
+            {/* carousel here */}'
+            
+
+          </section>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
               <Row className="justify-content-center">
@@ -155,7 +159,7 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
-                      <CardHeader>
+                        <CardHeader>
                           <CardImg className="img-fluid" src={project2img} alt='gitstop'>
 
                           </CardImg>
@@ -194,7 +198,7 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
-                      <CardHeader>
+                        <CardHeader>
                           <CardImg className="img-fluid" src={project3img} alt='salmon cookies'>
 
                           </CardImg>
