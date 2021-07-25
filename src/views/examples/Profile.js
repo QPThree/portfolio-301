@@ -28,6 +28,7 @@ import profile from "assets/img/brand/profile.jpeg";
 import CardHeader from "reactstrap/lib/CardHeader";
 import CardBody from "reactstrap/lib/CardBody";
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import MyCarousel from "./MyCarousel";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -116,7 +117,7 @@ class Profile extends React.Component {
                           <span className="description">AWS Certified</span>
                         </div>
                         <div>
-                          <span className="heading">3</span>
+                          <span className="heading">6</span>
                           <span className="description">Deployed Sites</span>
                         </div>
                         <div>
@@ -164,6 +165,7 @@ class Profile extends React.Component {
               </Card>
             </Container>
           </section>
+          <MyCarousel />
           <section className="section">
             <Row className="justify-content-md-center">
               <Col className="order-lg-2" lg="3" >

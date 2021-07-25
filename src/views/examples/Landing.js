@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import MyCarousel from "./MyCarousel";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import project1img from '../../assets/img/projects/fantascribe.jpeg';
@@ -29,6 +30,7 @@ import {
   Card,
   CardBody,
   CardImg,
+  Carousel,
   FormGroup,
   Input,
   InputGroupAddon,
@@ -100,10 +102,11 @@ class Landing extends React.Component {
                   y="0"
                 >
                   <polygon
-                    className="fill-white"
+                    className="fill-primary"
                     points="2560 0 2560 100 0 100"
                   />
                 </svg>
+                
               </div>
             </section>
             {/* 1st Hero Variation */}
@@ -113,7 +116,10 @@ class Landing extends React.Component {
             
 
           </section>
+          
+         
           <section className="section section-lg pt-lg-0 mt--200">
+          
             <Container>
               <Row className="justify-content-center">
                 <Col lg="12">
@@ -408,7 +414,7 @@ class Landing extends React.Component {
                 y="0"
               >
                 <polygon
-                  className="fill-white"
+                  className="fill-secondary"
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
