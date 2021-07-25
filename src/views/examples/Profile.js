@@ -196,8 +196,6 @@ class Profile extends React.Component {
                   </CardHeader>
                   <CardBody>
                     <Container>
-
-
                       <Row>
                         <Col>
                           <p>JSON</p>

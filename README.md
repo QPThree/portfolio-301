@@ -42,11 +42,23 @@ Actual time needed to complete: 16 min
 
 ### Feature 4
 
+Number and name of feature: Design and Personalize
+
+Estimate of time needed to complete: 3+ hours
+
+Start time: 2:11pm 24JUL2021
+
+Finish time: 9:22pm 24JUL2021
+
+Actual time needed to complete: 4 hours
+
+### Feature 5
+
 Number and name of feature: Portfolio
 
 Estimate of time needed to complete: 45 min
 
-Start time: 1:40pm 24JUL2021
+Start time: 2:30pm 24JUL2021
 
 Finish time: 2:11pm 24JUL2021
 
