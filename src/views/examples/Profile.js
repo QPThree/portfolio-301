@@ -117,7 +117,7 @@ class Profile extends React.Component {
                           <span className="description">AWS Certified</span>
                         </div>
                         <div>
-                          <span className="heading">3</span>
+                          <span className="heading">6</span>
                           <span className="description">Deployed Sites</span>
                         </div>
                         <div>
