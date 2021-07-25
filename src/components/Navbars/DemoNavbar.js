@@ -40,7 +40,6 @@ import {
 } from "reactstrap";
 
 import qp3logo from "assets/img/brand/qp3logo.png";
-import argonReact from "assets/img/brand/argon-react.png";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -97,7 +96,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={argonReact}
+                          src={qp3logo}
                         />
                       </Link>
                     </Col>
